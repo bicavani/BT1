@@ -10,14 +10,18 @@ document.write('b = ' + b);
 document.write('<br/>');
 document.write('s = ' + s);
 document.write('<br/>');
+
+
 let width = 10;
 let height = 20;
 let area = width * height;
 document.write('area = ' + area);
-let a = prompt("nhap gia tri a = ", '');
-let d = prompt("nhap gia tri d = ", '');
+
+
+let a = parseInt(prompt("nhap gia tri a = ", ''));
+let d = parseInt(prompt("nhap gia tri d = ", ''));
 let c = a%d;
-if (c == 0){
+if (c === 0){
     alert("a la boi so cua d");
 }
 else {
