@@ -10,3 +10,7 @@ document.write('b = ' + b);
 document.write('<br/>');
 document.write('s = ' + s);
 document.write('<br/>');
+let width = 10;
+let height = 20;
+let area = width * height;
+document.write('area = ' + area);
